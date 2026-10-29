@@ -1,0 +1,188 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.fbheader{
+    background-color: blue;
+    padding: 10px;
+    position: relative;
+}
+
+.fblogo{
+    color: white;
+}
+.logform{
+    position: absolute;
+    right: 30px;
+    top: 18px;
+
+}
+#emaillab{
+    position: absolute;
+    top: -16px;
+    color: white;
+}
+#pswdlab{
+    position: absolute;
+    top: -16px;
+    color: white;
+}
+#logbtn{
+    background-color: rgb(84 84 202 );
+    color: white;
+}
+.signup{
+    position: absolute;
+    left: 1100px;
+    top: 78px;
+    width: 430px;
+    height: 560px;
+}
+
+.signup-title{
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 38px;
+    color: #333;
+    font-weight: bold;
+}
+
+.signup-subtitle{
+    position: absolute;
+    left: 0;
+    top: 48px;
+    font-size: 18px;
+    color: #555;
+}
+
+.input{
+    position: absolute;
+    height: 45px;
+    border: 1px solid #bdc7d8;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: white;
+}
+
+.firstname{
+    left: 0;
+    top: 95px;
+    width: 205px;
+}
+
+.lastname{
+    left: 215px;
+    top: 95px;
+    width: 205px;
+}
+
+.email{
+    left: 0;
+    top: 150px;
+    width: 420px;
+}
+
+.reemail{
+    left: 0;
+    top: 205px;
+    width: 420px;
+}
+
+.password{
+    left: 0;
+    top: 260px;
+    width: 420px;
+}
+
+.birthday-title{
+    position: absolute;
+    left: 0;
+    top: 320px;
+    font-size: 17px;
+    font-weight: bold;
+    color: #555;
+}
+
+.select{
+    position: absolute;
+    top: 350px;
+    height: 35px;
+    border: 1px solid #aaa;
+    background-color: white;
+}
+
+.month{
+    left: 0;
+    width: 100px;
+}
+
+.day{
+    left: 105px;
+    width: 80px;
+}
+
+.year{
+    left: 190px;
+    width: 90px;
+}
+
+.birthday-help{
+    position: absolute;
+    left: 290px;
+    top: 352px;
+    font-size: 11px;
+    color: #3b5998;
+    width: 120px;
+    }
+
+.gender{
+    position: absolute;
+    left: 0;
+    top: 405px;
+    font-size: 16px;
+    color: #333;
+}
+
+.gender input{
+    margin-right: 5px;
+}
+
+.terms{
+    position: absolute;
+    left: 0;
+    top: 440px;
+    width: 410px;
+    font-size: 11px;
+    color: #777;
+    line-height: 16px;
+}
+
+.signup-button{
+    position: absolute;
+    left: 0;
+    top: 490px;
+    width: 150px;
+    height: 45px;
+    border: 1px solid #3b6e22;
+    border-radius: 6px;
+    background-color: #69a74e;
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.create-page{
+    position: absolute;
+    left: 0;
+    top: 550px;
+    font-size: 13px;~
+    color: #555;
+}
+
+.create-page b{
+    color: #3b5998;
+}
